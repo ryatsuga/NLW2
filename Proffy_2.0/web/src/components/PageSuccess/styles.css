@@ -1,0 +1,107 @@
+#page-success {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--color-text-in-primary);
+    background: var(--color-primary);
+}
+
+#page-success .bg-container {
+    width: 100%;
+    padding: 2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#page-success .success-image {
+    height: 10rem;
+    width: 10rem;
+    color: #FFF;
+    margin-bottom: 3rem;
+}
+
+#page-success h3 {
+    color: #FFF;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#page-success .description {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 4.6rem;
+    width: 65rem;
+}
+
+.success-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#page-success .button-container {
+    margin-top: 9rem;
+}
+
+#page-success .button-container a {
+    width:  30rem;;
+    height: 7rem;
+    border-radius: 0.8rem;
+    font: 700 2.0rem Archivo;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: var(--color-button-text);
+
+    transition: background-color 0.2s;
+}
+
+#page-success .button-container a.button {
+    background: var(--color-secundary);
+}
+
+#page-success .button-container a.button:hover {
+    background: var(--color-secundary-dark);
+}
+
+@media (min-width: 700px) {
+    #page-success {
+        max-width: 100%;
+    }
+
+    #page-success .bg-container {
+        height: 100%;
+        width: 100%;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #page-success h3 {
+        font-size: 4rem;
+    }
+
+}
+
+@media (max-width: 700px) {
+    #page-success .bg-container {
+        /* background-image: none!important; */
+        background-size: 55rem;
+    }
+
+}
+

@@ -1,0 +1,218 @@
+#page-forgot-password {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#page-forgot-password .head-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    margin-top: -5rem;
+    margin-bottom: 3rem;
+}
+
+#page-forgot-password .head-container > img {
+    height: 1.8rem;
+    fill: var(--color-primary);
+}
+
+#page-forgot-password .proffy-banner {
+    display: none;
+}
+
+#page-forgot-password  .forgot-password-container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-forgot-password  .forgot-password-content {
+    width: 100%;
+    padding: 0 4rem;
+}
+
+#page-forgot-password .info-container h2 {
+    font-weight: bolder;
+    font-size: 2.4rem;
+    color: black;
+    line-height: 3.4rem;
+    margin-bottom: 2.5rem;
+}
+
+#page-forgot-password .info-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#page-forgot-password .info-container .forgot-password-button {
+    color: var(--color-primary);
+    font: 700 1.6rem Archivo;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#page-forgot-password .info-container a:hover {
+    color: var(--color-primary-dark);
+}
+
+#page-forgot-password .input-block {
+    margin-top: 2rem;
+}
+
+#page-forgot-password .input-block + .input-block {
+    margin-top: -0.5rem;
+}
+
+#page-forgot-password .info-container {
+    color: var(--color-text-complement);
+}
+
+
+#page-forgot-password .forgot-password-content .forgot-password-button {
+    background: var(--color-secundary);
+}
+
+#page-forgot-password .forgot-password-content .forgot-password-button:hover {
+    background: var(--color-secundary-dark);
+}
+
+#page-forgot-password .forgot-password-content .forgot-password-button {
+    margin-top: 2rem;
+}
+
+#page-forgot-password .forgot-password-content .forgot-password-button {
+    width: 100%;
+    height: 6rem;
+    border-radius: 0.8rem;
+    font: 700 1.8rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--color-button-text);
+    transition: background-color 0.2s;
+}
+
+
+#page-forgot-password footer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12rem;
+}
+
+#page-forgot-password .login-button {
+    color: var(--color-primary);
+    font: 700 1.6rem Archivo;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+@media (min-width: 1250px) {
+    #page-forgot-password {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    #page-forgot-password .head-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 4rem;
+        margin-top: 2rem;
+    }
+
+    #page-forgot-password  .forgot-password-container {
+        height: 100%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #page-forgot-password .info-container h2 {
+        font-size: 3rem;
+    }
+
+
+    #page-forgot-password  .forgot-password-content {
+        height: 85%;
+    }
+
+    #page-forgot-password .proffy-banner {
+        display: flex;
+    }
+
+    #page-forgot-password .head-container > img {
+        display: none;
+    }
+
+    #page-forgot-password .forgot-password-container {
+        padding: 0 15rem;
+    }
+
+    
+    #page-forgot-password .input-block input {
+        height: 8rem;
+    }
+
+    #page-forgot-password .forgot-password-content .forgot-password-button {
+        margin-top: 4.5rem;
+    }
+    
+    #page-forgot-password .input-block:focus-within::after {
+        content: '';
+        width: 0;
+        height: 65%;
+        position: absolute;
+        border: 1.2px solid var(--color-primary-light);
+        top: 1.9rem;
+        left: 0;
+    }
+    
+    #page-forgot-password .input-block + .input-block + .input-block + .input-block:focus-within::after {
+        content: '';
+        width: 0;
+        height: 50%;
+        position: absolute;
+        border: 1.2px solid var(--color-primary-light);
+        top: 1.9rem;
+        left: 0;
+    }
+
+    .show-password-button img {
+        height: 2.8rem;
+        right: 2rem;
+        top: 3.5rem;
+    }
+
+    #page-forgot-password footer {
+        margin-top: 7rem;
+    }
+
+}
+  
